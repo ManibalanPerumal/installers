@@ -13,7 +13,7 @@ os.system('go mod vendor')
 os.system('go run gograbber.go')
 print('--'*30)
 
-os.system('go run recursebuster.go')
+os.system('~/go/bin/recursebuster -h')
 print('--'*30)
 
 os.system('cd dirsearch && python -m pip install --upgrade pip && pip install -r requirements.txt && python dirsearch.py')
